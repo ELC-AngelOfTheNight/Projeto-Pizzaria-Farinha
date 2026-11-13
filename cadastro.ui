@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>941</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+
+background: lightblue;
+
+}
+
+QLabel{
+
+font-size: 22px;
+
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>60</y>
+     <width>681</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;
+font: 48pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>CADASTRO DE CONTAS</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_usuario">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>260</y>
+     <width>551</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>230</y>
+     <width>551</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>USUARIO</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>280</y>
+     <width>551</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>E- MAIL</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_email">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>310</y>
+     <width>551</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>330</y>
+     <width>551</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SENHA</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_senha">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>360</y>
+     <width>551</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_criar">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>400</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/* Estado Normal do Botão */
+QPushButton {
+    background-color: #2980b9; /* Azul vibrante */
+    color: white;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 8px 16px;
+    border: none;
+}
+
+/* Quando o mouse passa por cima (Hover) */
+QPushButton:hover {
+    background-color: #3498db; /* Azul mais claro */
+}
+
+/* Quando o botão é clicado (Pressed) */
+QPushButton:pressed {
+    background-color: #1f618d; /* Azul mais escuro */
+    padding-top: 10px; /* Efeito visual de afundar */
+    padding-left: 18px;
+}
+
+/* Quando o botão está desativado (Disabled) */
+QPushButton:disabled {
+    background-color: #bdc3c7;
+    color: #7f8c8d;
+}</string>
+   </property>
+   <property name="text">
+    <string>CRIAR CONTA</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_screenmanager">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>450</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    /* Remove o fundo e as bordas padrão */
+    background-color: transparent;
+    border: none;
+    
+    /* Estiliza o texto como um link */
+    color: #0066cc;
+    text-align: left;
+    font-size: 14px;
+}
+
+QPushButton:hover {
+    /* Efeito de sublinhado ao passar o mouse */
+    text-decoration: underline;
+    color: #004499;
+}
+
+QPushButton:pressed {
+    /* Cor diferente quando o botão for clicado */
+    color: #551a8b;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>JÁ TEM UMA CONTA? ENTRE AGORA</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
